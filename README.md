@@ -1,5 +1,6 @@
 # CalculatorJava
 
+CALCULATOR: 
 addition(): Takes two numbers as input and returns their sum.
 subtraction(): Takes two numbers as input and returns the result of subtracting the second number from the first.
 multiplication(): Takes two numbers as input and returns their product.
@@ -10,3 +11,6 @@ mean(): Allows the user to input a series of numbers until they enter "end", the
 variance()`: Allows the user to input a series of numbers, calculates the variance, and returns the result.
 
 This code defines a `CalculatorMain` class with a `main` method, creating a menu-driven interface for performing mathematical operations using a `Calculator` instance. It repeatedly displays options for addition, subtraction, multiplication, division, exponentiation, square root, mean, and variance calculations, executing the corresponding methods based on user input until the user chooses to exit.
+
+INPUT_METHODS: 
+This code defines an `Input` class with a method `input2Numbers()` that prompts the user to input two numbers and returns them as an array of doubles.
